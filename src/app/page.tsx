@@ -464,7 +464,7 @@ function App() {
               Oluwapelumi Adesokan
             </h1>
             <p className="hero-subtitle text-xl sm:text-2xl lg:text-3xl text-blue-300 mb-8 font-light">
-              Frontend Developer
+              Full-Stack Developer
             </p>
             <p className="hero-description text-lg sm:text-xl text-gray-300 mb-12 max-w-3xl mx-auto">
               3+ years building scalable fintech platforms, high-performance web
@@ -510,7 +510,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="about-content space-y-6">
               <h3 className="text-2xl font-semibold text-white mb-4">
-                Results-Driven Frontend Developer
+                Results-Driven Full-Stack Developer
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed">
                 Frontend Developer specializing in React.js and Next.js, with 3+
