@@ -285,13 +285,10 @@ function App() {
   const skills = [
     { name: "React.js", level: 92, color: "bg-blue-500" },
     { name: "Next.js", level: 90, color: "bg-gray-800" },
-    { name: "TypeScript", level: 88, color: "bg-blue-600" },
     { name: "JavaScript (ES6+)", level: 95, color: "bg-yellow-500" },
     { name: "Tailwind CSS", level: 93, color: "bg-cyan-500" },
     { name: "Redux/Zustand", level: 90, color: "bg-purple-500" },
     { name: "RESTful APIs", level: 90, color: "bg-green-500" },
-    { name: "Jest Testing", level: 82, color: "bg-orange-500" },
-    { name: "Vue.js", level: 78, color: "bg-emerald-500" },
     { name: "Node/Express", level: 70, color: "bg-red-500" },
     { name: "React Native", level: 70, color: "bg-green-500" },
   ];
@@ -464,7 +461,7 @@ function App() {
               Oluwapelumi Adesokan
             </h1>
             <p className="hero-subtitle text-xl sm:text-2xl lg:text-3xl text-blue-300 mb-8 font-light">
-              Full-Stack Developer
+              Frontend Developer
             </p>
             <p className="hero-description text-lg sm:text-xl text-gray-300 mb-12 max-w-3xl mx-auto">
               3+ years building scalable fintech platforms, high-performance web
@@ -479,11 +476,13 @@ function App() {
               >
                 View My Work
               </button>
-              <button
-                onClick={() => scrollToSection("contact")}
-                className="border-2 border-white text-white hover:bg-white hover:text-gray-900 font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105"
-              >
-                Get In Touch
+              <button className="border-2 border-white text-white hover:bg-white hover:text-gray-900 font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105">
+                <a
+                  href="https://drive.google.com/file/d/1PR_Pzfz0387sKbIxn-tBE5giBRlkiUFn/view?usp=sharing"
+                  target="_blank"
+                >
+                  Resume
+                </a>
               </button>
             </div>
           </div>
@@ -510,7 +509,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="about-content space-y-6">
               <h3 className="text-2xl font-semibold text-white mb-4">
-                Results-Driven Full-Stack Developer
+                Results-Driven Frontend Developer
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed">
                 Frontend Developer specializing in React.js and Next.js, with 3+
@@ -578,7 +577,7 @@ function App() {
                   <div className="flex justify-between">
                     <span className="text-gray-300">Current Role</span>
                     <span className="text-blue-400 font-semibold">
-                      Freelancer
+                      Frontend Developer
                     </span>
                   </div>
 
@@ -720,8 +719,13 @@ function App() {
                   I&apos;m always interested in new opportunities and exciting
                   projects. Whether you&apos;re looking for a frontend developer
                   to join your team or need help building your next web
-                  application, let&apos;s connect and discuss how we can work
-                  together.
+                  application, Let's Build Something Amazing Together.{" "}
+                  <a
+                    href="https://drive.google.com/file/d/1PR_Pzfz0387sKbIxn-tBE5giBRlkiUFn/view?usp=sharing"
+                    className="font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent"
+                  >
+                    My Resume
+                  </a>
                 </p>
               </div>
 
