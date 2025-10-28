@@ -719,7 +719,7 @@ function App() {
                   I&apos;m always interested in new opportunities and exciting
                   projects. Whether you&apos;re looking for a frontend developer
                   to join your team or need help building your next web
-                  application, Let's Build Something Amazing Together.{" "}
+                  application, Let&apos;s Build Something Amazing Together.{" "}
                   <a
                     href="https://drive.google.com/file/d/1PR_Pzfz0387sKbIxn-tBE5giBRlkiUFn/view?usp=sharing"
                     className="font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent"
